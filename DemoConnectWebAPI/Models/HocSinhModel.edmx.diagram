@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a83402c88f16412e9e5f5f6cb3d9e568" Name="Diagram1">
+        <EntityTypeShape EntityType="QLDTvXTModel.BACHOC" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.BoGD" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.DIEMMH" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.HOCSINH" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.KHOI" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.KHUVUC" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.MONHOC" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.NGANHXT" Width="1.5" PointX="9.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.NGUYENVONG" Width="1.5" PointX="7.5" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.PHANQUYEN" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.PHANHOI" Width="1.5" PointX="7.5" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.SoGD" Width="1.5" PointX="5.25" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.THPT" Width="1.5" PointX="3" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDTvXTModel.TRUONGDH" Width="1.5" PointX="7.5" PointY="11.75" IsExpanded="true" />
+        <AssociationConnector Association="QLDTvXTModel.fk_NGANHXT_BACHOC" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_NGUYENVONG_BACHOC" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_BoGD_PHANQUYEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_TRUONGDH_BoGD" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_DIEMMH_MONHOC" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_HOCSINH_DIEMMH1" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_HOCSINH_DIEMMH2" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_HOCSINH_DIEMMH3" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_HOCSINH_DIEMMH4" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_HOCSINH_DIEMMH5" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_HOCSINH_KHUVUC" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_HOCSINH_PHANQUYEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_HOCSINH_THPT" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_NGUYENVONG_HOCSINH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_PHANHOI_HOCSINH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_KHOI_MONHOC1" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_KHOI_MONHOC2" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_KHOI_MONHOC3" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_NGUYENVONG_KHOI" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_NGANHXT_TRUONGDH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_SoGD_PHANQUYEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDTvXTModel.fk_THPT_PHANQUYEN" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
