@@ -24,6 +24,8 @@ namespace DemoWebservice.Controllers
         // GET: api/SinhViens
         public IQueryable<SinhVien> GetSinhVien()
         {
+
+
             return db.SinhVien;
         }
 
